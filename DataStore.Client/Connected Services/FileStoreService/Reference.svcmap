@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="f0100711-239b-46b2-8b88-63314c1c1d42" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8080/FileStoreService" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="FileOperations.wsdl" MetadataType="Wsdl" ID="c0a02017-b9c7-4471-aef1-d8099b49f1dd" SourceId="1" SourceUrl="http://localhost:8080/FileStoreService?wsdl" />
+    <MetadataFile FileName="FileStoreService2.xsd" MetadataType="Schema" ID="f8d3bd42-3d38-4c81-8f07-c12b5dadcf95" SourceId="1" SourceUrl="http://localhost:8080/FileStoreService?xsd=xsd2" />
+    <MetadataFile FileName="FileStoreService.xsd" MetadataType="Schema" ID="0196b4ae-ff9e-45bd-9c37-3fab0a6c674f" SourceId="1" SourceUrl="http://localhost:8080/FileStoreService?xsd=xsd1" />
+    <MetadataFile FileName="FileStoreService.disco" MetadataType="Disco" ID="688b25f6-b033-40a8-814d-f5a685adabb1" SourceId="1" SourceUrl="http://localhost:8080/FileStoreService?disco" />
+    <MetadataFile FileName="FileStoreService1.xsd" MetadataType="Schema" ID="0261b502-3f27-4ce6-ac47-e2f8ba438433" SourceId="1" SourceUrl="http://localhost:8080/FileStoreService?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

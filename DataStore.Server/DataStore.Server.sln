@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30406.217
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStore.Server", "DataStore.Server.csproj", "{5B7097FA-1A20-4E1A-9562-B629B8C8C683}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStore.Client", "..\DataStore.Client\DataStore.Client.csproj", "{411AD226-D602-400D-9F3F-499B0169086C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B7097FA-1A20-4E1A-9562-B629B8C8C683}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B7097FA-1A20-4E1A-9562-B629B8C8C683}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B7097FA-1A20-4E1A-9562-B629B8C8C683}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B7097FA-1A20-4E1A-9562-B629B8C8C683}.Release|Any CPU.Build.0 = Release|Any CPU
+		{411AD226-D602-400D-9F3F-499B0169086C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{411AD226-D602-400D-9F3F-499B0169086C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{411AD226-D602-400D-9F3F-499B0169086C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{411AD226-D602-400D-9F3F-499B0169086C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4109F5FB-978E-492C-86F3-446F3FD1C26C}
+	EndGlobalSection
+EndGlobal
